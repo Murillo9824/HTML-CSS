@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+
+:root{
+    --cor1:white;
+    --cor2:#0A14A4;
+    --cor:black;
+}
+
+body{
+    
+}
+
+*{
+    margin: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+header{
+    text-align: center;
+
+    background-color: #FFFFFF; /* define a cor do quadrado*/
+    width: 1200px; /*delimita o espaço em que o texto vai ficar*/
+    margin: auto; /*coloca o paragrafo centralizado*/
+    padding: 10px; /*da um espaço para o quadrado não ficar muinto grudado*/
+    border-radius: 20px; /*deixa as bordas arredondadas*/
+    box-shadow: 10px 10px 15px #15161A;
+    /*locamento lateral, locamento para baixo, espalhamento, cor da sombra*/
+
+}
+
+nav{
+    text-align: center;
+    border: 20px;
+    padding: 20px;
+    margin: 50px 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+div{
+    height: 100px;/*define a autura da div*/
+    width: 100px;/*define a largura da div*/
+    text-align: center;/*centraliza o texto*/
+    border: 1px solid black; /*da e define a cor das bordas*/
+    background-color: white; /*cor da linha*/
+    display: inline-block; /* deixa as divs na mesma linha */
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+div:hover{/*define a cor que vai ficar quando colocar o mouse em cima*/
+    background-color: #0a72fa;
+    transition-duration: 1s;
+
+
+}
