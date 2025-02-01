@@ -1,16 +1,33 @@
 @charset "UTF-8";
 
+@font-face{
+    font-family: 'hiroshio';
+    src: url(fontes/Hiroshio.otf) format('opentype');
+    font-weight: normal;
+}
 
+@font-face {
+    font-family: 'capture';
+    src: url(fontes/Capture\ it.ttf) format('opentype');
+    font-weight: normal;
+}
 
 :root{
-    --cor1:white;
-    --cor2:#0A14A4;
-    --cor:black;
+    --cor0:#F0EADD;
+    --cor1:#58ADB2;
+    --cor2:#104447;
+    --cor3:#7B2514;
+    --cor4:#362416;
+    --cor5:black;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-titulo: 'hiroshio', 'cursive';
+    --font-destaque:
+
 }
 
-body{
-    
-}
+
+
 
 *{
     margin: 0px;
@@ -18,47 +35,6 @@ body{
     border-radius: 0px;
 }
 
-header{
-    text-align: center;
-
-    background-color: #FFFFFF; /* define a cor do quadrado*/
-    width: 1200px; /*delimita o espaço em que o texto vai ficar*/
-    margin: auto; /*coloca o paragrafo centralizado*/
-    padding: 10px; /*da um espaço para o quadrado não ficar muinto grudado*/
-    border-radius: 20px; /*deixa as bordas arredondadas*/
-    box-shadow: 10px 10px 15px #15161A;
-    /*locamento lateral, locamento para baixo, espalhamento, cor da sombra*/
-
-}
-
-nav{
-    text-align: center;
-    border: 20px;
-    padding: 20px;
-    margin: 50px 0px;
-}
-
-nav a{
-    text-decoration: none;
-    color: black;
-    
-    
-}
-
-div{
-    height: 100px;/*define a autura da div*/
-    width: 100px;/*define a largura da div*/
-    text-align: center;/*centraliza o texto*/
-    border: 1px solid black; /*da e define a cor das bordas*/
-    background-color: white; /*cor da linha*/
-    display: inline-block; /* deixa as divs na mesma linha */
-    margin-left: auto;
-    margin-right: auto; 
-}
-
-div:hover{/*define a cor que vai ficar quando colocar o mouse em cima*/
-    background-color: #0a72fa;
-    transition-duration: 1s;
-
-
+body{
+    background-image: linear-gradient();
 }
